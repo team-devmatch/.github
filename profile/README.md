@@ -13,4 +13,4 @@ Cloud Native 기반 AI Agent 서비스를 개발하는 3기 3팀입니다.
 | backend | Spring Boot 기반 REST API |
 | ai-service | FastAPI 기반 AI 서비스 |
 | database | ERD 설계 및 DDL |
-| project-infra | Docker, K8s, CI/CD |
+| project-infra | Docker, AWS, CI/CD |
