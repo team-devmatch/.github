@@ -129,10 +129,10 @@ application.yml 참고
 ---
 
 ## CI/CD
-코드 Push (ai-service)
-↓
-GitHub Actions 실행
-↓
-Docker 이미지 빌드
-↓
-Docker Hub Push
+
+```mermaid
+flowchart LR
+  A[코드 Push\nai-service] --> B[GitHub Actions\n워크플로우 실행]
+  B --> C[Docker\n이미지 빌드]
+  C --> D[Docker Hub\nPush 완료]
+```
