@@ -49,15 +49,9 @@
 ---
 
 ## 아키텍처
-사용자 브라우저
-↓
-React (localhost:5173)
-↓              ↓
-Spring Boot        FastAPI
-(localhost:8080)   (localhost:8000)
-↓              ↓
-PostgreSQL      OpenAI API
-(localhost:5432)
+사용자 브라우저 → React(localhost:5173) → Spring Boot(localhost:8080) → FastAPI(localhost:8000)
+→ PostgreSQL(localhost:5432),OpenAI API(외부 서비스)
+
 
 ## 로컬 실행 방법
 
@@ -129,10 +123,4 @@ application.yml 참고
 ---
 
 ## CI/CD
-코드 Push (ai-service)
-↓
-GitHub Actions 실행
-↓
-Docker 이미지 빌드
-↓
-Docker Hub Push
+코드 Push (ai-service) → GitHub Actions 실행 → Docker 이미지 빌드 → Docker Hub Push
