@@ -1,4 +1,4 @@
-# FESTIVA - 축제 정보 + AI 챗봇 플랫폼
+# FESTIGO - 축제 정보 + AI 챗봇 플랫폼
 
 > Cloud Native 기반 AI Agent 서비스를 개발하는 3기 3팀입니다.
 
